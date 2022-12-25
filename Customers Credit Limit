@@ -53,3 +53,13 @@ Carolyn Bradley is from the UK, and her credit limit is 15354, which is less tha
 Paula Fuller is from the USA, and her credit limit is 14789, which is less than 100000.
 Remaining records are analyzed similarly.
 So, Frances White, Ruth Gutierrez, and Anne Harris are from USA and credit is greater than 100000.
+
+/*
+Enter your query here.
+*/
+//CODE
+
+SELECT ID, Name
+FROM customer
+WHERE Country = "USA" AND credits > 100000
+ORDER BY ID ASC;
