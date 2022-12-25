@@ -30,3 +30,13 @@ Test Results
 Run Query
 
 Submit
+/*
+Enter your query below.
+Please append a semicolon ";" at the end of the query
+*/
+//CODE
+
+SELECT upper(name), marks
+FROM exam
+WHERE marks % 2 = 0
+ORDER BY name ASC;
