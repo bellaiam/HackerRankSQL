@@ -51,3 +51,13 @@ For Thor, latitude = 45.34 and longitude = 30.89. So, both are less than 50.
 For Deadpool, latitude = 25.12 and longitude = 69.21. So, the latitude is less than 50 but the longitude is greater than 50.
 The remaining records are analyzed similarly.
 Thor, Hulk, and Doctor Strange have latitudes and longitudes less than 50 so, their IDs are printed.
+/*
+Enter your query below.
+Please append a semicolon ";" at the end of the query
+*/
+// CODE
+
+
+SELECT superhero.id
+FROM superhero
+WHERE latitude < 50 AND longitude < 50;
