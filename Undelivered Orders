@@ -42,3 +42,12 @@ Sample Output
 Explanation
 
 Out of all the nine orders, the orders with ID 4, 5, and 9 are delivered while rest six are still undelivered.
+
+/*
+Enter your query here.
+*/
+// CODE
+
+SELECT count(orders.status)
+FROM orders
+WHERE orders.status != "delivered";
