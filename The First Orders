@@ -44,3 +44,14 @@ Sample Output
 Explanation
 
 The orders with order numbers 10100, 10101, 10102, 10106, and 10120 are the earliest placed orders and also have order status not equal to DELIVERED, so all their information in the increasing order of their order ID is printed.
+
+/*
+Enter your query here.
+*/
+//CODE
+
+SELECT *
+FROM orders
+WHERE status <> 'delivered'
+ORDER BY order_date ASC, ID ASC 
+LIMIT 5;
