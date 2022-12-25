@@ -63,3 +63,12 @@ Anne Harris started coding 7 months ago and earned 15 hackos per month. So the t
 So, Ernest Thomas, Joe Garza, and Anne Harris have earned more than 100 hackos in less than 10 months.
 
  
+/*
+Enter your query here.
+*/
+//CODE
+
+SELECT name
+FROM hacker
+WHERE months < 10 AND hackos * months > 100
+ORDER BY ID ASC;
