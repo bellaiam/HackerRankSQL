@@ -73,3 +73,18 @@ Explanation
 
 In the city South Suzanne, there are 2 users and the total fare of rides taken by those users is 1050.
 In the city Cooktown, there are 4 users and the total fare of rides taken by those users is 1710.
+/*
+Enter your query below.
+Please append a semicolon ";" at the end of the query
+*/
+//CODE
+
+SELECT cities.name, sum(fare)
+FROM cities
+JOIN users  
+ON cities.id = users.city_id
+JOIN rides 
+ON users.id = rides.user_id
+GROUP BY cities.name
+ORDER BY SUM(fare) ASC, cities.name ASC;
+
