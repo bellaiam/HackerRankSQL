@@ -57,6 +57,7 @@ So, Frances White, Ruth Gutierrez, and Anne Harris are from USA and credit is gr
 /*
 Enter your query here.
 */
+
 //CODE
 
 SELECT ID, Name
