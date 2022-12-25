@@ -50,3 +50,12 @@ Sid > Tom > Dick > Jerry > Erica > Julia > John > Bob > Harry > Dev
  
 
 Dick's and Jerry's scores were the same, so they are shown in ID order.
+/*
+Enter your query below.
+Please append a semicolon ";" at the end of the query
+*/
+// CODE
+
+SELECT id, name
+FROM student
+ORDER BY student.score DESC, id ASC LIMIT 3;
