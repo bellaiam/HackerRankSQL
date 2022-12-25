@@ -91,3 +91,13 @@ Test Results
 Run Query
 
 Submit
+
+/*
+Enter your query here.
+*/
+//CODE
+
+SELECT customer.ID, customer.name
+FROM customer
+ORDER BY customer.name, customer.id ASC;
+
