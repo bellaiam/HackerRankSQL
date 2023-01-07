@@ -38,9 +38,16 @@ Explanation
 
 Each student listed has at least one record in the backlog table.
 
-//CODE
+//CODE OPTION 1
 
 SELECT Distinct student.name
 FROM student
 JOIN backlog
 ON student.id = backlog.student_id;
+
+// CODE OPTION 2
+
+-- SELECT DISTINCT  student.NAME
+-- FROM backlog  
+-- INNER JOIN student 
+-- ON student.ID = backlog.STUDENT_ID 
